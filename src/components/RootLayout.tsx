@@ -77,7 +77,7 @@ function Header({
             filled={logoHovered}
           />
           {/* <img src={LogoGen} alt="" /> */}
-          <Image src={LogoGen} alt='' className='hidden h-24 w-24 sm:block border border-red-500' />
+          <Image src={LogoGen} alt='' className='hidden h-24 w-24 sm:block' />
           {/* <Logo
             className="hidden h-8 sm:block"
             invert={invert}

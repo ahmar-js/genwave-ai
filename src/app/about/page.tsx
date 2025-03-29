@@ -133,7 +133,7 @@ function Team() {
   return (
     <Container className="mt-24 sm:mt-32 lg:mt-40">
       <div className="space-y-24">
-        {team.map((group) => (
+        {/* {team.map((group) => (
           <FadeInStagger key={group.title}>
             <Border as={FadeIn} />
             <div className="grid grid-cols-1 gap-6 pt-12 sm:pt-16 lg:grid-cols-4 xl:gap-8">
@@ -172,7 +172,7 @@ function Team() {
               </div>
             </div>
           </FadeInStagger>
-        ))}
+        ))} */}
       </div>
     </Container>
   )
@@ -196,13 +196,13 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
+            GenWaveAI was started by three friends who noticed that developer
+            GenWaveAIs were charging clients double what an in-house team would
             cost. Since the beginning, we have been committed to doing things
             differently by charging triple instead.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
+            At GenWaveAI, we’re more than just colleagues — we’re a family. This
             means we pay very little and expect people to work late. We want our
             employees to bring their whole selves to work. In return, we just
             ask that they keep themselves there until at least 6:30pm.
@@ -213,7 +213,7 @@ export default async function About() {
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />
           <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="$2.5M" label="Invoices billed" />
         </StatList>
       </Container>
 
@@ -224,7 +224,7 @@ export default async function About() {
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
         title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide."
         pages={blogArticles}
       />
 

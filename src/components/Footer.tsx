@@ -125,7 +125,7 @@ export function Footer() {
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
             {/* <Logo className="h-8" fillOnHover /> */}
-            <Image src={LogoGen} alt='' className='hidden h-24 w-24 sm:block border border-red-500' />
+            <Image src={LogoGen} alt='' className='hidden h-24 w-24 sm:block' />
             
           </Link>
           <p className="text-sm text-neutral-700">

@@ -155,15 +155,14 @@ function Services() {
               We have a team of skilled developers who are experts in the latest
               app frameworks, like Angular 1 and Google Web Toolkit.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Chatbots Development">
+              We are at the forefront of modern Chatbot development. Which
+              mainly means adding your data to add into the knowledge base of Chatbots and integrate into your website.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Machine Learning & Deep Learning">
+              At GenWaveAI we understand the importance of having a robust and
+              customised AI Solutions including Machine, deeplearning and genAI. That’s why we run all of our client projects out
+              of a single, enormous instance.
             </ListItem>
           </List>
         </div>
@@ -174,7 +173,7 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'We are a development GenWaveAI working at the intersection of design and technology.',
 }
 
 export default async function Home() {
@@ -185,10 +184,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in UK.
+            Award-winning development GenWaveAI based in UK.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
+            We are a development GenWaveAI working at the intersection of design
             and technology. It’s a really busy intersection though — a lot of
             our staff have been involved in hit and runs.
           </p>
@@ -203,7 +202,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
+        The team at GenWaveAI went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of
         those annoying permission dialogs.
       </Testimonial>

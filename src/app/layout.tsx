@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - GenWaveAI',
-    default: 'GenWaveAI - Award winning developer studio based in UK',
+    default: 'GenWaveAI - Award winning developer GenWaveAI based in UK',
   },
 }
 
